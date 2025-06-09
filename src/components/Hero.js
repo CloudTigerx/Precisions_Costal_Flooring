@@ -1,7 +1,18 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './Hero.css';
 
 const Hero = () => {
+  const [heroImage, setHeroImage] = useState(null);
+
+  useEffect(() => {
+    // Try to load hero image from GitHub, fall back to placeholder
+    const heroImagePath = '/images/hero/hero-main.jpg';
+    const img = new Image();
+    img.onload = () => setHeroImage(heroImagePath);
+    img.onerror = () => setHeroImage(null); // Keep placeholder if image doesn't exist
+    img.src = heroImagePath;
+  }, []);
+
   return (
     <section id="home" className="hero">
       <div className="hero-overlay">
@@ -38,12 +49,18 @@ const Hero = () => {
             </div>
           </div>
           <div className="hero-image">
-            <div className="hero-placeholder">
-              {/* Placeholder for future hero image */}
-              <div className="image-placeholder">
-                <div className="placeholder-icon">🏠</div>
-                <p>Professional Flooring Installation</p>
-              </div>
+            <div className="hero-placeholder" style={heroImage ? {
+              backgroundImage: `url(${heroImage})`,
+              backgroundSize: 'cover',
+              backgroundPosition: 'center'
+            } : {}}>
+              {!heroImage && (
+                <div className="image-placeholder">
+                  <div className="placeholder-icon">🏠</div>
+                  <p>Professional Flooring Installation</p>
+                  <small>Upload your hero image to /public/images/hero/hero-main.jpg</small>
+                </div>
+              )}
             </div>
           </div>
         </div>
