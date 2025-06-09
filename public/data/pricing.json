@@ -1,0 +1,88 @@
+{
+  "lastUpdated": "2025-01-10",
+  "materials": {
+    "hardwood": {
+      "glueDown": {
+        "oak": {
+          "name": "Red Oak Hardwood",
+          "pricePerSqFt": 4.50,
+          "laborPerSqFt": 3.00,
+          "supplier": "LL Flooring",
+          "productLink": "https://www.llflooring.com/p/red-oak-solid-hardwood",
+          "sampleImage": "/images/services/hardwood-oak.jpg",
+          "description": "Classic red oak with beautiful grain patterns"
+        },
+        "maple": {
+          "name": "Hard Maple Hardwood",
+          "pricePerSqFt": 5.25,
+          "laborPerSqFt": 3.00,
+          "supplier": "LL Flooring",
+          "productLink": "https://www.llflooring.com/p/hard-maple-solid-hardwood",
+          "sampleImage": "/images/services/hardwood-maple.jpg",
+          "description": "Premium maple with tight grain and durability"
+        }
+      }
+    },
+    "lvp": {
+      "luxury": {
+        "coretec": {
+          "name": "CoreTec Plus Enhanced",
+          "pricePerSqFt": 3.75,
+          "laborPerSqFt": 2.50,
+          "supplier": "LL Flooring",
+          "productLink": "https://www.llflooring.com/p/coretec-plus-enhanced",
+          "sampleImage": "/images/services/lvp-coretec.jpg",
+          "description": "Waterproof luxury vinyl with attached cork backing"
+        },
+        "lifeproof": {
+          "name": "LifeProof Vinyl Plank",
+          "pricePerSqFt": 2.98,
+          "laborPerSqFt": 2.50,
+          "supplier": "Lowes",
+          "productLink": "https://www.lowes.com/pd/lifeproof-vinyl-plank",
+          "sampleImage": "/images/services/lvp-lifeproof.jpg",
+          "description": "100% waterproof with rigid core construction"
+        }
+      }
+    },
+    "laminate": {
+      "standard": {
+        "pergo": {
+          "name": "Pergo Outlast+",
+          "pricePerSqFt": 2.25,
+          "laborPerSqFt": 2.00,
+          "supplier": "Lowes",
+          "productLink": "https://www.lowes.com/pd/pergo-outlast-laminate",
+          "sampleImage": "/images/services/laminate-pergo.jpg",
+          "description": "Waterproof laminate with SpillProtect technology"
+        }
+      }
+    }
+  },
+  "additionalServices": {
+    "demolition": {
+      "name": "Old Flooring Removal",
+      "pricePerSqFt": 1.50,
+      "description": "Complete removal and disposal of existing flooring"
+    },
+    "subfloorPrep": {
+      "name": "Subfloor Preparation",
+      "pricePerSqFt": 0.75,
+      "description": "Leveling, cleaning, and moisture testing"
+    },
+    "trim": {
+      "name": "Trim Installation",
+      "pricePerLinearFt": 4.50,
+      "description": "Baseboard and quarter round installation"
+    },
+    "transitions": {
+      "name": "Transition Strips",
+      "pricePerLinearFt": 8.00,
+      "description": "Professional transition between different flooring types"
+    }
+  },
+  "minimums": {
+    "projectMinimum": 500,
+    "rushJobSurcharge": 0.50
+  }
+} 
