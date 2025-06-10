@@ -79,9 +79,9 @@ const Materials = () => {
       <div className="materials-container">
         <div className="materials-header">
           <h2>Premium Flooring Materials</h2>
-          <p>Choose from our carefully selected range of high-quality flooring options</p>
+          <p>Professionally installed flooring options with transparent pricing - materials and labor included</p>
           <div className="updated-info">
-            <span>Updated: {materialsData.lastUpdated}</span>
+            <span>Pricing Updated: {materialsData.lastUpdated}</span>
           </div>
         </div>
 
@@ -151,24 +151,9 @@ const Materials = () => {
                   </div>
                 </div>
 
-                <div className="material-supplier">
-                  <span className="supplier-label">Supplier:</span>
-                  <span className="supplier-name">{material.supplier}</span>
-                </div>
-
                 <div className="material-actions">
-                  {material.productLink && (
-                    <a 
-                      href={material.productLink} 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="product-link-btn"
-                    >
-                      View Product Details
-                    </a>
-                  )}
-                  <a href="#contact" className="quote-btn">
-                    Get Quote
+                  <a href="#contact" className="quote-btn-full">
+                    Get Free Quote
                   </a>
                 </div>
               </div>
@@ -178,7 +163,7 @@ const Materials = () => {
 
         <div className="materials-cta">
           <h3>Don't See What You're Looking For?</h3>
-          <p>We work with multiple suppliers and can source almost any flooring material</p>
+          <p>We source from multiple suppliers and can get almost any flooring material you need. Let us handle everything from sourcing to installation.</p>
           <a href="#contact" className="cta-button">Request Custom Quote</a>
         </div>
       </div>
