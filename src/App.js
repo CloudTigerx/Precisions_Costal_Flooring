@@ -5,6 +5,7 @@ import './App.css';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Services from './components/Services';
+import Materials from './components/Materials';
 import Gallery from './components/Gallery';
 import About from './components/About';
 import Contact from './components/Contact';
@@ -16,6 +17,7 @@ function App() {
       <Header />
       <Hero />
       <Services />
+      <Materials />
       <Gallery />
       <About />
       <Contact />

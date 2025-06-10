@@ -24,6 +24,9 @@ const Header = () => {
             <a href="#services" className="nav-link" onClick={() => setIsMenuOpen(false)}>
               Services
             </a>
+            <a href="#materials" className="nav-link" onClick={() => setIsMenuOpen(false)}>
+              Materials
+            </a>
             <a href="#gallery" className="nav-link" onClick={() => setIsMenuOpen(false)}>
               Gallery
             </a>

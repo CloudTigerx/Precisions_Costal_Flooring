@@ -1,0 +1,391 @@
+.materials {
+  padding: 100px 0;
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+}
+
+.materials-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.materials-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.materials-header h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 1rem;
+}
+
+.materials-header p {
+  font-size: 1.2rem;
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto 1rem;
+}
+
+.updated-info {
+  display: inline-block;
+  background: #d4a574;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.materials-filters {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  background: #fff;
+  border: 2px solid #ddd;
+  padding: 0.75rem 1.5rem;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: capitalize;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+  background: #d4a574;
+  border-color: #d4a574;
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+.materials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.material-card {
+  background: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.material-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+.material-image {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+}
+
+.material-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.material-card:hover .material-image img {
+  transform: scale(1.05);
+}
+
+.image-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background: linear-gradient(135deg, #f0f0f0, #e0e0e0);
+}
+
+.material-icon {
+  font-size: 3rem;
+  opacity: 0.7;
+}
+
+.material-badge {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: rgba(212, 165, 116, 0.9);
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
+.material-content {
+  padding: 1.5rem;
+}
+
+.material-name {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 0.5rem;
+  line-height: 1.3;
+}
+
+.material-description {
+  color: #666;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+  line-height: 1.4;
+}
+
+.material-specs {
+  background: #f8f9fa;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.spec-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.spec-item:last-child {
+  margin-bottom: 0;
+}
+
+.spec-label {
+  font-weight: 600;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.spec-value {
+  font-weight: 500;
+  color: #d4a574;
+  font-size: 0.9rem;
+}
+
+.material-pricing {
+  background: linear-gradient(135deg, #1a1a1a, #2c2c2c);
+  color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.price-breakdown {
+  margin-bottom: 0.75rem;
+}
+
+.price-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.price-item:last-child {
+  margin-bottom: 0;
+}
+
+.price-label {
+  color: #ccc;
+  font-size: 0.9rem;
+}
+
+.price-value {
+  font-weight: 600;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+.total-price {
+  border-top: 1px solid #444;
+  padding-top: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.total-label {
+  font-weight: 600;
+  color: #d4a574;
+  font-size: 1rem;
+}
+
+.total-value {
+  font-weight: 700;
+  color: #d4a574;
+  font-size: 1.2rem;
+}
+
+.material-supplier {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.supplier-label {
+  font-weight: 600;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.supplier-name {
+  font-weight: 500;
+  color: #d4a574;
+  font-size: 0.9rem;
+}
+
+.material-actions {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.product-link-btn,
+.quote-btn {
+  flex: 1;
+  text-align: center;
+  padding: 0.75rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.product-link-btn {
+  background: #f8f9fa;
+  color: #555;
+  border: 2px solid #ddd;
+}
+
+.product-link-btn:hover {
+  background: #e9ecef;
+  border-color: #d4a574;
+  color: #d4a574;
+}
+
+.quote-btn {
+  background: linear-gradient(135deg, #d4a574, #b8935f);
+  color: #fff;
+  border: 2px solid #d4a574;
+}
+
+.quote-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(212, 165, 116, 0.3);
+}
+
+.materials-cta {
+  text-align: center;
+  background: linear-gradient(135deg, #1a1a1a, #2c2c2c);
+  padding: 3rem;
+  border-radius: 20px;
+  color: #fff;
+}
+
+.materials-cta h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.materials-cta p {
+  font-size: 1.1rem;
+  color: #ccc;
+  margin-bottom: 2rem;
+}
+
+.cta-button {
+  background: linear-gradient(135deg, #d4a574, #b8935f);
+  color: #fff;
+  padding: 1rem 2.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.cta-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(212, 165, 116, 0.3);
+}
+
+.loading,
+.error {
+  text-align: center;
+  padding: 4rem 2rem;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.error {
+  color: #e74c3c;
+}
+
+/* Mobile Responsive */
+@media screen and (max-width: 768px) {
+  .materials {
+    padding: 60px 0;
+  }
+
+  .materials-container {
+    padding: 0 1rem;
+  }
+
+  .materials-header h2 {
+    font-size: 2rem;
+  }
+
+  .materials-filters {
+    justify-content: center;
+  }
+
+  .filter-btn {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
+
+  .materials-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .material-card {
+    margin: 0 auto;
+    max-width: 400px;
+  }
+
+  .material-actions {
+    flex-direction: column;
+  }
+
+  .materials-cta {
+    padding: 2rem;
+  }
+
+  .materials-cta h3 {
+    font-size: 1.5rem;
+  }
+} 
