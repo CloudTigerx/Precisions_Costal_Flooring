@@ -5,14 +5,17 @@ const Gallery = () => {
   const [galleryImages, setGalleryImages] = useState([]);
 
   useEffect(() => {
-    // List of expected gallery images
+    // List of actual uploaded gallery images
     const expectedImages = [
-      { filename: 'project-01-living-room-hardwood.jpg', title: 'Living Room Hardwood', description: 'Red oak glue-down installation' },
-      { filename: 'project-02-kitchen-lvp.jpg', title: 'Kitchen LVP', description: 'Waterproof luxury vinyl plank' },
-      { filename: 'project-03-bedroom-laminate.jpg', title: 'Bedroom Laminate', description: 'High-quality laminate flooring' },
-      { filename: 'project-04-office-hardwood.jpg', title: 'Home Office Hardwood', description: 'Maple hardwood installation' },
-      { filename: 'project-05-bathroom-lvp.jpg', title: 'Bathroom LVP', description: 'Waterproof luxury vinyl' },
-      { filename: 'project-06-basement-laminate.jpg', title: 'Basement Laminate', description: 'Moisture-resistant laminate' }
+      { filename: 'project-01-completed-work.jpg', title: 'Professional Installation', description: 'Precision flooring installation with clean finish' },
+      { filename: 'project-02-flooring-installation.jpg', title: 'Expert Craftsmanship', description: 'Quality installation process in progress' },
+      { filename: 'project-03-hardwood-flooring.jpg', title: 'Hardwood Excellence', description: 'Beautiful hardwood flooring installation' },
+      { filename: 'project-04-precision-installation.jpg', title: 'Precision Work', description: 'Detailed installation with perfect alignment' },
+      { filename: 'project-05-luxury-vinyl.jpg', title: 'Luxury Vinyl Installation', description: 'High-end LVP installation project' },
+      { filename: 'project-06-detail-work.jpg', title: 'Detail-Oriented Work', description: 'Close attention to every detail and finish' },
+      { filename: 'project-07-professional-finish.jpg', title: 'Professional Finish', description: 'Clean, professional completion' },
+      { filename: 'project-08-quality-installation.jpg', title: 'Quality Installation', description: 'Superior installation techniques' },
+      { filename: 'project-09-completed-project.jpg', title: 'Completed Project', description: 'Another satisfied customer installation' }
     ];
 
     // Check which images actually exist
@@ -49,7 +52,7 @@ const Gallery = () => {
       <div className="gallery-container">
         <div className="gallery-header">
           <h2>Our Recent Work</h2>
-          <p>Take a look at some of our completed flooring installations in Jacksonville, NC</p>
+          <p>Real photos from our completed flooring installations in Jacksonville, NC</p>
         </div>
         
         {galleryImages.length > 0 ? (
@@ -68,17 +71,8 @@ const Gallery = () => {
           <div className="gallery-placeholder">
             <div className="placeholder-content">
               <div className="placeholder-icon">📷</div>
-              <h3>Gallery Coming Soon</h3>
-              <p>We're preparing photos of our completed projects to showcase here.</p>
-              <div className="upload-instructions">
-                <h4>To add photos:</h4>
-                <ol>
-                  <li>Upload images to <code>/public/images/gallery/</code></li>
-                  <li>Use naming format: <code>project-##-room-type-material.jpg</code></li>
-                  <li>Examples: <code>project-01-living-room-hardwood.jpg</code></li>
-                  <li>Refresh the page to see new photos</li>
-                </ol>
-              </div>
+              <h3>Loading Gallery...</h3>
+              <p>Preparing photos of our completed projects.</p>
             </div>
           </div>
         )}

@@ -1,7 +1,18 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './About.css';
 
 const About = () => {
+  const [technicianImage, setTechnicianImage] = useState(null);
+
+  useEffect(() => {
+    // Try to load lead technician image
+    const imagePath = '/images/about/lead-technician.jpg';
+    const img = new Image();
+    img.onload = () => setTechnicianImage(imagePath);
+    img.onerror = () => setTechnicianImage(null);
+    img.src = imagePath;
+  }, []);
+
   return (
     <section id="about" className="about">
       <div className="about-container">
@@ -59,12 +70,18 @@ const About = () => {
           
           <div className="about-image">
             <div className="image-container">
-              <div className="about-placeholder">
-                <div className="placeholder-content">
-                  <div className="placeholder-icon">👨‍🔧</div>
-                  <h4>Meet Our Lead Technician</h4>
-                  <p>Expert in glue-down hardwood and LVP installation with a commitment to craftsmanship excellence.</p>
-                </div>
+              <div className="about-placeholder" style={technicianImage ? {
+                backgroundImage: `url(${technicianImage})`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'center'
+              } : {}}>
+                {!technicianImage && (
+                  <div className="placeholder-content">
+                    <div className="placeholder-icon">👨‍🔧</div>
+                    <h4>Meet Our Lead Technician</h4>
+                    <p>Expert in glue-down hardwood and LVP installation with a commitment to craftsmanship excellence.</p>
+                  </div>
+                )}
               </div>
             </div>
           </div>

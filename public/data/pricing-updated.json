@@ -1,0 +1,138 @@
+{
+  "lastUpdated": "2025-01-10",
+  "materials": {
+    "hardwood": {
+      "engineered": {
+        "acacia_distressed": {
+          "name": "Acacia Distressed Engineered Hardwood",
+          "pricePerSqFt": 6.62,
+          "laborPerSqFt": 3.00,
+          "supplier": "Lumber Liquidators",
+          "productLink": "https://lumberliquidators.com/collections/engineered-hardwood-flooring/products/vm-ds-eng-acacia-1-2-x-7-44",
+          "sampleImage": "https://lumberliquidators.com/cdn/shop/files/10052781_sw_iuyakj_07ef12eb-fc02-40f2-b790-24b6f0e876a2.jpg?v=1749103748&width=1500",
+          "description": "1/2 in. Acacia Distressed Prefinished Engineered Hardwood 7.44 in. Wide",
+          "sku": "LLVMENDSAC7",
+          "sqftPerBox": 29.3
+        },
+        "acacia_quick_click": {
+          "name": "Acacia Quick Click Engineered",
+          "pricePerSqFt": 6.39,
+          "laborPerSqFt": 3.00,
+          "supplier": "Lumber Liquidators",
+          "productLink": "https://lumberliquidators.com/collections/engineered-hardwood-flooring/products/bw-eng-acacia-qc-1-2x4-3-4-nat",
+          "sampleImage": "https://lumberliquidators.com/cdn/shop/files/10029941_sw_cb01a2bb-db03-4f31-a3e6-98851ea568ad.jpg?v=1749104371&width=1500",
+          "description": "1/2 in. Acacia Quick Click Prefinished Engineered 4.75 in. Wide",
+          "sku": "LLBWENQCAC5S",
+          "sqftPerBox": 32.55
+        },
+        "bellagio_maple": {
+          "name": "Bellagio Maple Engineered",
+          "pricePerSqFt": 6.62,
+          "laborPerSqFt": 3.00,
+          "supplier": "Lumber Liquidators",
+          "productLink": "https://lumberliquidators.com/collections/engineered-hardwood-flooring/products/bwsi-eng-bellagio-maple-1-2-x-7-5",
+          "sampleImage": "https://lumberliquidators.com/cdn/shop/files/BWSI_Bellagio_Swatch_edrerr_6f3246c6-701f-4d81-9f2a-a7a50f86b844.jpg?v=1749103754&width=1500",
+          "description": "1/2 in. Bellagio Maple Prefinished Engineered 7.5 in. Wide",
+          "sku": "LLBWSIENBM7",
+          "sqftPerBox": 29
+        },
+        "capri_isle_maple": {
+          "name": "Capri Isle Maple Engineered",
+          "pricePerSqFt": 6.62,
+          "laborPerSqFt": 3.00,
+          "supplier": "Lumber Liquidators",
+          "productLink": "https://lumberliquidators.com/collections/engineered-hardwood-flooring/products/bwsi-eng-capri-isle-maple-1-2-x-7-5",
+          "sampleImage": "https://lumberliquidators.com/cdn/shop/files/BWSI_Capri_Swatch1_u5zszr.jpg?v=1749103756&width=1500",
+          "description": "1/2 in. Capri Isle Maple Prefinished Engineered 7.5 in. Wide",
+          "sku": "LLBWSIENCIM7",
+          "sqftPerBox": 29
+        },
+        "delaware_driftwood_oak": {
+          "name": "Delaware Driftwood Oak",
+          "pricePerSqFt": 5.19,
+          "laborPerSqFt": 3.00,
+          "supplier": "Lumber Liquidators",
+          "productLink": "https://lumberliquidators.com/collections/engineered-hardwood-flooring/products/vmen-ds-delaware-drift-oak-1-2-x-7-48",
+          "sampleImage": "https://lumberliquidators.com/cdn/shop/files/10050753_sw_likq9w.jpg?v=1749104362&width=900",
+          "description": "1/2 in. Delaware Driftwood Oak Distressed Prefinished Engineered 7.48 in. Wide",
+          "sku": "LLHSDD7-P",
+          "sqftPerBox": 31.09
+        },
+        "nautilus_hickory": {
+          "name": "Nautilus Hickory Wire Brushed",
+          "pricePerSqFt": 6.79,
+          "laborPerSqFt": 3.00,
+          "supplier": "Lumber Liquidators",
+          "productLink": "https://lumberliquidators.com/collections/engineered-hardwood-flooring/products/bwengds-nautilus-hickory-1-2-x-7-4",
+          "sampleImage": "https://lumberliquidators.com/cdn/shop/files/10053478_sw_o3knms_ff511f66-a9de-4633-a61c-c3b3aead1b71.jpg?v=1749104365&width=900",
+          "description": "1/2 in. Nautilus Hickory Wire Brushed Prefinished Engineered 7.4 in. Wide",
+          "sku": "LLBWENDSNH7",
+          "sqftPerBox": 28.06
+        },
+        "pearlescent_white_oak": {
+          "name": "Pearlescent White Oak",
+          "pricePerSqFt": 7.99,
+          "laborPerSqFt": 3.50,
+          "supplier": "Lumber Liquidators",
+          "productLink": "https://lumberliquidators.com/collections/engineered-hardwood-flooring/products/bwengds-pearlescent-wo-1-2-x-7-4",
+          "sampleImage": "https://lumberliquidators.com/cdn/shop/files/10053490_sw_re49ta_5f556c72-7187-4077-aa69-3f18428ae2a9.jpg?v=1749104412&width=900",
+          "description": "1/2 in. Pearlescent White Oak Wire Brushed Prefinished Engineered 7.4 in. Wide",
+          "sku": "LLBWENDSPRWO7",
+          "sqftPerBox": 28.06
+        },
+        "riviera_maple": {
+          "name": "Riviera Maple Engineered",
+          "pricePerSqFt": 6.29,
+          "laborPerSqFt": 3.00,
+          "supplier": "Lumber Liquidators",
+          "productLink": "https://lumberliquidators.com/collections/engineered-hardwood-flooring/products/bwsi-eng-riviera-maple-1-2-x-7-5",
+          "sampleImage": "https://lumberliquidators.com/cdn/shop/files/BWSI_Riviera_Swatch_uk71qg_23da277d-0144-4d1f-a7bb-395d1b825416.jpg?v=1749104373&width=900",
+          "description": "1/2 in. Riviera Maple Prefinished Engineered 7.5 in. Wide",
+          "sku": "LLBWSIENRM7",
+          "sqftPerBox": 29
+        }
+      }
+    },
+    "bamboo": {
+      "engineered": {
+        "matterhorn_distressed": {
+          "name": "Matterhorn Distressed Click Strand",
+          "pricePerSqFt": 2.92,
+          "laborPerSqFt": 2.50,
+          "supplier": "Lumber Liquidators",
+          "productLink": "https://lumberliquidators.com/collections/engineered-hardwood-flooring/products/1-2-in-matterhorn-distressed-click-strand-engineered-bamboo-flooring-7-5-in-wide",
+          "sampleImage": "https://lumberliquidators.com/cdn/shop/files/10052664_sw_wx0wdg_88c9b515-fcc6-49b9-90ce-e49ea57476c1.jpg?v=1749103742&width=900",
+          "description": "1/2 in. Matterhorn Distressed Click Strand Engineered Bamboo 7.5 in. Wide",
+          "sku": "LLRNENQCDSMH7",
+          "sqftPerBox": 22.7
+        }
+      }
+    }
+  },
+  "additionalServices": {
+    "demolition": {
+      "name": "Old Flooring Removal",
+      "pricePerSqFt": 1.50,
+      "description": "Complete removal and disposal of existing flooring"
+    },
+    "subfloorPrep": {
+      "name": "Subfloor Preparation",
+      "pricePerSqFt": 0.75,
+      "description": "Leveling, cleaning, and moisture testing"
+    },
+    "trim": {
+      "name": "Trim Installation",
+      "pricePerLinearFt": 4.50,
+      "description": "Baseboard and quarter round installation"
+    },
+    "transitions": {
+      "name": "Transition Strips",
+      "pricePerLinearFt": 8.00,
+      "description": "Professional transition between different flooring types"
+    }
+  },
+  "minimums": {
+    "projectMinimum": 500,
+    "rushJobSurcharge": 0.50
+  }
+} 
